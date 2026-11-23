@@ -6,4 +6,4 @@ This is a Weather and Air Quality Dashboard App which can be used to fetch the w
 -Forecast: https://api.open-meteo.com/v1/forecast?latitude=${latitude}&longitude=${longitude}&current=temperature_2m,relative_humidity_2m,apparent_temperature,wind_speed_10m,weather_code&timezone=auto
 -AirQuality: https://air-quality-api.open-meteo.com/v1/air-quality?latitude=${latitude}&longitude=${longitude}&current=pm2_5,pm10,european_aqi
 
-Live Website link : https://
+Live Website link : https://kv74242-hue.github.io/Weather-Dashboard-app/
