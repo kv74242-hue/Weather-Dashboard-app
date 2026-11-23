@@ -291,9 +291,10 @@ function loadSavedCities() {
 document.addEventListener('keydown', (event)=>{
     if(event.key === 'Escape'){
         suggestionContainer.innerHTML = '';
+        clearTimeout(debounceTimer)
     
-    if (suggestionContainer){
-        suggestionContainer.abort()
+    if (suggestionController){
+        suggestionController.abort()
     }
 }
 })
